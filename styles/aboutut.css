@@ -1,0 +1,560 @@
+.navigationbar .currentpage{
+  color: #FF5A30;
+}
+
+.header-backgroup2{
+  position: absolute;
+  background-image: url('/CreatexConstruction/img/aboutus/backgroundimg.png');
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 910px;
+  right: -262px;
+  top: 0px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.advantages_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.card>div{
+  width: 260px;
+  height: 110px;
+}
+
+.advantages_div .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 260px;
+  height: 180px;
+}
+
+.advantages_div .card img{
+  top: 0px;
+  margin-bottom: 20px;
+}
+
+.advantages_div .card h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color: #FF5A30;
+  margin-bottom: 8px;
+}
+
+.advantages_div .card p{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #1E212C;
+}
+
+.advantages_div .card sup{
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FF5A30;
+}
+
+.advantages_CEO_feedback_card{
+  width: 735px;
+  height: 570px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px -4px #1E212C08, 0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.advantages_CEO_feedback{
+  position: relative;
+  height: 700px;
+  margin-bottom: 120px;
+}
+
+.advantages_CEO_feedback>img{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.text_div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-left: 77px;
+  margin-right: 105px;
+}
+
+.text_div p{
+  width: 495px;
+  height: 300px;  
+}
+
+
+.text_div::before{
+  content: url('/CreatexConstruction/img/aboutus/braces.svg');
+  margin-right: 30px;
+}
+
+.text_div p{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #1E212C;
+}
+
+.signature_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 105px;
+  margin-left: 135px;
+}
+
+.signature_card p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  text-align: left;
+  color: #1E212C;
+}
+
+.signature_card span{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #787A80;
+}
+
+.corevalues_background{
+  background-color: #F4F5F6;
+}
+
+.home_corevalues_header h3{
+  margin-top: 80px;
+}
+
+.history_line{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.history_points{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.history_points label::before{
+  content: url('/CreatexConstruction/img/aboutus/ellipse.png');
+  padding-right: 32px;
+  margin-left: -29px;
+  height: 42px;
+}
+
+.history_line_div{
+  margin-bottom: 100px;
+  width: 255px;
+}
+
+.history_line_div h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: left;
+  color: #1E212C;
+  margin-bottom: 60px;
+}
+
+.history_points{
+font-family: Ubuntu;
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+text-align: left;
+color: #9A9CA5;
+}
+
+#num1:checked ~ .history_line_div .history_points .num1,
+#num2:checked ~ .history_line_div .history_points .num2,
+#num3:checked ~ .history_line_div .history_points .num3,
+#num4:checked ~ .history_line_div .history_points .num4,
+#num5:checked ~ .history_line_div .history_points .num5,
+#num6:checked ~ .history_line_div .history_points .num6,
+#num7:checked ~ .history_line_div .history_points .num7,
+#num8:checked ~ .history_line_div .history_points .num8,
+#num9:checked ~ .history_line_div .history_points .num9{
+  color: #FF5A30;
+}
+
+#num1:checked ~ .history_line_div .history_points .num1::before,
+#num2:checked ~ .history_line_div .history_points .num2::before,
+#num3:checked ~ .history_line_div .history_points .num3::before,
+#num4:checked ~ .history_line_div .history_points .num4::before,
+#num5:checked ~ .history_line_div .history_points .num5::before,
+#num6:checked ~ .history_line_div .history_points .num6::before,
+#num7:checked ~ .history_line_div .history_points .num7::before,
+#num8:checked ~ .history_line_div .history_points .num8::before,
+#num9:checked ~ .history_line_div .history_points .num9::before{
+  content: url('/CreatexConstruction/img/aboutus/ellipseorange.png');
+}
+
+.history_section input{
+  display: none;
+}
+
+.history_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history_line_content_div{
+  position: relative;
+  width: 822px;
+}
+
+.history_line_content_image{
+  margin-bottom: 36px;
+}
+
+.history_line_content_div p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #424551;
+}
+
+.history_line_content_label_div{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: -50px;
+  right: 15px;
+  gap: 15px;
+}
+
+.history_line_content_label_div .prev_content label,
+.history_line_content_label_div .next_content label
+{
+  display: none;
+}
+
+#num1:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_9,
+#num1:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_2
+{
+  display: block;
+}
+
+#num2:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_1,
+#num2:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_3
+{
+  display: block;
+}
+
+#num3:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_2,
+#num3:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_4
+{
+  display: block;
+}
+
+#num4:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_3,
+#num4:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_5
+{
+  display: block;
+}
+
+#num5:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_4,
+#num5:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_6
+{
+  display: block;
+}
+
+#num6:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_5,
+#num6:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_7
+{
+  display: block;
+}
+
+#num7:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_6,
+#num7:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_8
+{
+  display: block;
+}
+
+#num8:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_7,
+#num8:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_9
+{
+  display: block;
+}
+
+#num9:checked ~ .history_line_content_div .history_line_content_label_div .prev_content .prev_arrow_8,
+#num9:checked ~ .history_line_content_div .history_line_content_label_div .next_content .next_arrow_1
+{
+  display: block;
+}
+
+.history_line_content_image{
+  width: 810px;
+  height: 450px;
+  border-radius: 4px;
+}
+
+#num1:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/aboutus/history_img1.jpg');
+}
+
+#num2:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/work/moderncottageimg1.jpg');
+}
+
+#num3:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/work/moderncottageimg2.svg');
+}
+
+#num4:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/work/section3_image.jpg');
+}
+
+#num5:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
+}
+
+#num6:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/services/section3card1.jpg');
+}
+
+#num7:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/services/section3card2.jpg');
+}
+
+#num8:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/services/section3card3.jpg');
+}
+
+#num9:checked ~ .history_line_content_div .history_line_content_image{
+  background-image: url('/CreatexConstruction/img/services/services-interiordesign.jpg');
+}
+
+.services_interior_design_bottom_logos{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 180px;
+  padding-bottom: 0px;
+}
+
+.services_interior_design_bottom_logos>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logos_section .header{
+  margin-bottom: 24px;
+}
+
+.logos_section .text{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #787A80;
+  margin-bottom: 60px;
+}
+
+.ourteam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ourteam .title{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.ourteam .text{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #787A80;
+  margin-bottom: 60px;
+}
+
+.ourteam span{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #1E212C;
+  margin-bottom: 80px;
+}
+
+.ourteam a{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #FF5A30;
+}
+
+.ourteam_card{
+  width: 285px;
+  height: 416px;
+  position: relative;
+}
+
+.ourteam_card h4{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #424551;
+  margin-top: 16px;
+}
+
+.ourteam_card p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #787A80;
+  margin-top: 4px;
+}
+
+.ourteam_card img{
+  width: 285px;
+  height: 340px;
+  border-radius: 4px;
+}
+
+.ourteam_cards_div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.hiddenbar img{
+  width: 20px;
+  height: 20px;
+}
+
+.hiddenbar{
+  width: 285px;
+  height: 60px;
+  background-color: #FF5A30;
+  opacity: 0.7;
+  display: none;
+  position: absolute;
+  bottom: 76px;
+}
+
+.ourteam_card:hover .hiddenbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.map_background{
+  background-color: #F4F5F6;
+  height: 883px;
+}
+
+.map_background h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+
+.map{
+  background-image: url('/CreatexConstruction/img/aboutus/map.png');
+  width: 1230px;
+  height: 563px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.map_canada{
+  position: absolute;
+  top: 113px;
+  left: 165px;
+}
+
+.map_usa{
+  position: absolute;
+  top: 208px;
+  left: 225px;
+}
+
+.map_germany{
+  position: absolute;
+  top: 157px;
+  left: 602px;
+}
+
+.map_ukraine{
+  position: absolute;
+  top: 165px;
+  left: 668px;
+}
+
+.map_china{
+  position: absolute;
+  top: 229px;
+  left: 910px;
+}
+
+.map_australia{
+  position: absolute;
+  top: 419px;
+  left: 1009px;
+}

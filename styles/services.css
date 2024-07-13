@@ -1,0 +1,555 @@
+.navigationbar .currentpage{
+  color: #FF5A30;
+}
+
+.navigation-background{
+  background-color: #F4F5F6;
+  position: relative;
+}
+
+.header-backgroup{
+  position: absolute;
+  background-image: url('/CreatexConstruction/img/services/background_image.png');
+  height: 600px;
+  width: 910px;
+  right: 0px;
+  top: 0px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.navigation-background{
+  height: 600px;
+}
+
+.navigation{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.services_header{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding-top: 80px;
+}
+
+.homepage{
+  color: black;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.header_refs{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #9A9CA5;
+}
+
+.services_text h1{
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1E212C;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.services_text p{
+  width: 600px;
+  height: 90px;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  color: #787A80;
+  line-height: 30px;
+}
+
+.section2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  margin-top: 120px;
+}
+
+.section2 h3{
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.section2 p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787A80;
+  margin-bottom: 48px;
+}
+
+.section2 button{
+  box-sizing: border-box;
+  height: 44px;
+  padding: 0px 32px 0px 32px;
+  border-radius: 4px;
+  border: 1px solid #FF5A30;
+  background: none;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #FF5A30;
+  text-transform: uppercase;
+}
+
+.bottom_part{
+  margin-bottom: 180px;
+}
+
+.services_inter_design_section1 img{
+  margin-top: 120px ;
+}
+
+.services_inter_design_section1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 105px;
+}
+
+.services_inter_design_section1 h3{
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  text-align: left;
+  color: #1E212C;
+}
+
+.interiordesign_div_text{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.interiordesign_text_title{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  color: #1E212C;
+}
+
+.interiordesign_text_text{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787A80;
+}
+
+.container .services_inter_design_section2{
+  text-align: left;
+}
+
+.services_inter_design_section2{
+  margin-top: 180px;
+}
+
+.interiordesign_submol {
+  font-size: 30px;
+  height: 100%;
+  color: #FF5A30;
+}
+
+.services_inter_design_section2{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+}
+
+.services_inter_design_footer{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.services_inter_design_footer_div{
+  width: 285px;
+  height: 192px;
+  position: relative;
+}
+
+.services_inter_design_titletext{
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+}
+
+.services_inter_number{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  color: #D7DADD;
+  margin-bottom: 16px;
+}
+
+.services_inter_line{
+  width: 100%;
+  height: 10px;
+  border-top: 2px dashed #D7DADD;
+}
+
+.services_inter_title{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #1E212C;
+  margin-bottom: 8px;
+}
+
+.services_inter_text{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787A80;
+}
+
+.services_inter_design_footer_div:hover .services_inter_number{
+  color: #FF5A30;
+}
+
+.circle1{
+  background-image: url('/CreatexConstruction/img/services/circle-1.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: -10px;
+  left: -17px;
+  display: none;
+}
+
+.circle2{
+  background-image: url('/CreatexConstruction/img/services/circle-1.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: -6px;
+  left: -13px;
+  opacity: 0.6;
+  scale: 1.4;
+  display: none;
+}
+
+.services_inter_design_footer_div:hover .circle1{
+  display: block;
+}
+
+
+.services_inter_design_footer_div:hover .circle2{
+  display: block;
+}
+
+.services_interior_design_section2{
+  width: 1920px;
+  height: 565px;
+  background-color: #1E212C;
+  position: relative;
+}
+
+.services_interior_design_section2_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.services_interior_design_section2_header h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 80px;
+}
+
+.services_interior_design_section2_header p{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 60px;
+}
+
+.services_interior_design_section2_card_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services_interior_design_section2_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 188px;
+}
+
+.services_interior_design_section2_card img{
+  margin-bottom: 24px;
+}
+
+.services_interior_design_section2_card h3{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.services_interior_design_section2_card p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+
+.services_interior_design_section2_card_div .border{
+  width: 188px;
+  height: 100%;
+  rotate: 90deg;
+  border-top: 0.5px solid;
+  opacity: 0.4;
+  border-image: linear-gradient(270.01deg, rgba(218, 219, 221, 0) 0%, rgba(218, 219, 221, 0.5) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.5) 87.85%, rgba(218, 219, 221, 0) 100%) 1;
+}
+
+.services_interior_design_section2 button{
+  width: 390px;
+  height: 52px;
+  border-radius: 4px;
+  border: none;
+  background: #FF5A30;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color:#FFFFFF;
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.services_interior_design__section3{
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
+
+.home_6th_section{
+  margin-bottom: 100px;
+}
+
+.services_interior_design_section4{
+  background-image: url('/CreatexConstruction/img/services/section4_background.png');
+  width: 1920px;
+}
+
+.services_interior_design_section4_title{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color: #1E212C;
+  padding-top: 80px;
+}
+
+.services_interior_design_section4_text{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #787A80;
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+
+.pricing_section{
+  background-color: white;
+  width: 1230px;
+  height: 743px;
+  border: 1px solid #E5E8ED;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px #1E212C08 ,0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D ,0px 80px 80px -20px #9A9CA514;
+}
+
+.pricing_section_header{
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.pricing_section_rows{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding-left: 24px;
+  height: 58px;
+}
+
+.pricing_section_col{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #1E212C;
+  width: 495px;
+  margin-top: 70px;
+  margin-bottom: 24px;
+}
+
+.pricing_section_col234{
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #1E212C;
+  width: 245px;
+  height: 65px;
+  margin-top: 32px;
+}
+
+.pricing_section_col234 p{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #787A80;
+}
+
+.pricing_section_rows p{
+  width: 495px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #424551;
+}
+
+.pricing_section_rows span{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #424551;
+}
+
+.tick_div{
+  width: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.even_row{
+  background-color: #F4F5F6;
+}
+
+.pricing_section_rows_button{
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  justify-content: center;
+  text-align: center;
+}
+
+.pricing_section_rows_button p{
+  width: 495px;
+}
+
+.pricing_section_button{
+  height: 40px;
+  padding: 0px 24px 0px 24px;
+  border-radius: 4px;
+  border: 1px solid #FF5A30;
+  background: none;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #FF5A30;
+  text-transform: uppercase;
+}
+
+.pricing_section_div_button{
+  width: 240px;
+}
+
+.logos_section .header{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.services_interior_design_bottom_logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.services_interior_design_bottom_logos img:hover{
+  filter: hue-rotate(180deg);
+}

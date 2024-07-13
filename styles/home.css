@@ -1,0 +1,1321 @@
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1920px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  height: 52px;
+}
+
+.navigation_leftside{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.navigationbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.navigationbar a{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #424551;
+}
+
+.navigation_rightside{
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}
+
+.navigation_rightside p{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: #424551;
+}
+
+.navigation_rightside span{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1E212C;
+}
+
+.navigation_phonebar{
+  display: flex;
+  align-items: center;
+}
+
+.navigation_chatbar{
+  display: flex;
+  align-items: center;
+}
+
+.home_main_top{
+  background-image: url(/CreatexConstruction/img/bg_image_home.jpg);
+  width: 1920px;
+  height: 988px;
+}
+
+#slide_1:checked ~ .inner_part .content_1,
+#slide_2:checked ~ .inner_part .content_2,
+#slide_3:checked ~ .inner_part .content_3{
+  opacity: 1;
+  margin-left: 0;
+  z-index: 100;
+  transition-delay: 0.3s;
+}
+
+.slider {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider .slide {
+  position: relative;
+  height: 10px;
+  width: 50px;
+  background: #d9d9d9;
+  border-radius: 5px;
+  display: inline-flex;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.slider .slide:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: -100%;
+  background: #000000;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform 0.6s;
+  transform-origin: left;
+}
+
+#slide_1:checked ~ .slider .slide_1:before,
+#slide_2:checked ~ .slider .slide_2:before,
+#slide_3:checked ~ .slider .slide_3:before {
+  transform: scaleX(1);
+  width: 100%;
+}
+
+#slide_1:checked ~ .inner_part .content_1,
+#slide_2:checked ~ .inner_part .content_2,
+#slide_3:checked ~ .inner_part .content_3 {
+  opacity: 1;
+  margin-left: 0;
+  z-index: 100;
+  transition-delay: 0.3s;
+}
+
+.home_main_top .inner_part {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 340px;
+}
+
+.content {
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.content .content_title{
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 93.6px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.contentX{
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  color: #FF5A30;
+}
+
+.content .content_text{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-bottom: 61px;
+}
+
+.card input {
+  display: none;
+}
+
+.content_buttons{
+  display: flex;
+  gap: 24px;
+}
+
+.content_btnleft{
+  width: 278px;
+  height: 52px;
+  padding: 0px 40px 0px 40px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+  background: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.content_btnright{
+  width: 224px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #FF5A30;
+  border: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.home_videodiv{
+  margin-top: 120px;
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home_videodiv h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.home_videodiv p{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  color: #787A80;
+  margin-bottom: 60px;
+}
+
+.blackoutvideo{
+  background-color: #1e212c8c;
+  width: 1230px;
+  height: 500px;
+}
+
+.img{
+  background-image: url(/CreatexConstruction/img/videoimage.png);
+  width: 1230px;
+  height: 500px;
+  position: relative;
+}
+
+.playbtn {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.mutebtn{
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+
+.home_corevalues_header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home_corevalues_header h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color: #1E212C;
+  padding-bottom: 24px;
+}
+
+.home_corevalues_header>p{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #787A80;
+  padding-bottom: 60px;
+}
+
+.home_corevalues_cards_div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.home_corevalues_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 188px;
+}
+
+.middlecard{
+  padding-left: 94px;
+  padding-right: 94px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 0.7px solid;
+  border-right: 0.7px solid;
+  border-image: linear-gradient(#DADBDD00 0% 10%, #DADBDD80 10% 30% , #DADBDD 50%, #DADBDD80 70% 90%, #DADBDD00 90% 100%) 1;
+}
+
+.home_corevalues_card img{
+  padding-bottom: 24px;
+}
+
+.home_corevalues_card h4{
+  padding-bottom: 8px;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+.home_corevalues_card p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #787A80;
+}
+
+.home_main_4th{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.home_main_4th h3{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1E212C;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.home_main_4th_cardsdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 73px;
+  margin-bottom: 48px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.home_main_4th_card p{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424551;
+  margin-bottom: 8px;
+}
+
+.home_main_4th_card input{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #9A9CA5;
+  background: #F4F5F6;
+  padding-left: 16px;
+  width: 240px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid #D7DADD;
+  margin-bottom: 48px;
+}
+
+.massege_inp input{
+  width: 414px;
+}
+
+.send_btn{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 104px;
+  height: 44px;
+  padding: 0px 32px 0px 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: #FF5A30;
+  margin-top: 29px;
+}
+
+.empty{
+  height: 200px;
+  background-color: white;
+}
+
+.rrr{
+  background: linear-gradient(white 0% 60%, #F4F5F6 60% 100%)
+}
+
+.div_5th{
+  text-align: center;
+  padding-top: 183px;
+}
+
+.home_5th_section{
+  background-color: #F4F5F6;
+  padding-bottom: 85px;
+}
+
+.div_5th .title{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color:#1E212C;
+  margin-bottom: 24px;
+}
+
+.div_5th .text{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #787A80;
+  margin-bottom: 60px;
+}
+
+.home_5th_cardsdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 30px ;
+}
+
+.home_5th_cardsdiv div{
+  width: 285px;
+  height: 285px;
+  border-radius: 4px;
+  border: 1px solid #E5E8ED;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0px 4px 4px -4px #1E212C08, 0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514;  
+}
+
+.home_5th_cardsdiv div p{ 
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+.first_img{
+  background: url(/CreatexConstruction/img/ourservicelogo1.svg);
+  width: 52px;
+  height: 52px;
+  background-repeat: no-repeat;
+}
+
+.second_img{
+  background: url(/CreatexConstruction/img/ourservicelogo2.svg);
+  width: 52px;
+  height: 52px;
+  background-repeat: no-repeat;
+}
+
+.third_img{
+  background: url(/CreatexConstruction/img/ourservicelogo3.png);
+  width: 52px;
+  height: 52px;
+  background-repeat: no-repeat;
+}
+
+.forth_img{
+  background: url(/CreatexConstruction/img/ourservicelogo3.png);
+  width: 52px;
+  height: 52px;
+  background-repeat: no-repeat;
+}
+
+.home_5th_cardsdiv{
+  margin-bottom: 80px;
+}
+
+.home_5th_cardsdiv .third_card:hover p{
+  color: white;
+}
+
+.home_5th_cardsdiv .third_card:hover{
+  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
+}
+
+.third_card:hover a{
+  background: url(/CreatexConstruction/img/ourservicelogo3hover.png);
+}
+
+.section_5th_btn_div{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.section5th_btn1{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1E212C;
+  width: 405px;
+  height: 42px;
+  border: none;
+  background: none;
+}
+
+.section5th_btn2{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 207px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #FF5A30;
+  border: none;
+}
+
+.home_6th_section{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.home_6th_section h3{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: left;
+  color: #1E212C;
+}
+
+.th_section_h3{
+  max-width: 705px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.home_6th_section_cardsdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.home_6th_section_cardsdiv img{
+}
+
+.home_6th_section_cardsdiv h4{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #1E212C;
+}
+
+.home_6th_section_cardsdiv p{
+  margin-top: 4px;
+  margin-bottom: 24px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #787A80;
+}
+
+.home_6th_text_div{
+  margin-top: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home_6th_card1, .home_6th_card2, .home_6th_card3{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 4px -4px #1E212C08, 0px 12px 10px -6px #9A9CA50A, 0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514;
+}
+
+.home_6th_card1 img{
+  width: 390px;
+  height: 345px;
+}
+
+.home_6th_card2 img{
+  width: 390px;
+  height: 345px;
+}
+
+.home_6th_card3 img{
+  width: 390px;
+  height: 345px;
+}
+
+.home_6th_hidden_btn{
+  display: none;
+  position: absolute;
+  width: 172px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid #FF5A30;
+  background-color: white;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FF5A30;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home_6th_card1:hover .home_6th_hidden_btn{
+  display: block;
+}
+
+.home_6th_card2:hover .home_6th_hidden_btn{
+  display: block;
+}
+
+.home_6th_card3:hover .home_6th_hidden_btn{
+  display: block;
+}
+
+.home_6th_card2:hover img{
+  width: 390px;
+  height: 280px;
+}
+
+.home_6th_card3:hover img{
+  width: 390px;
+  height: 280px;
+}
+
+.home_6th_card1:hover img{
+  width: 390px;
+  height: 280px;
+}
+
+.home_6th_lowbuttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.home_6th_btn1{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1E212C;
+  width: 290px;
+  height: 42px;
+  border: none;
+  background-color: white;
+}
+
+.home_6th_btn2{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 224px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #FF5A30;
+  border: none;
+}
+
+.section7_background{
+  background-color: #F4F5F6;
+}
+
+.home_7th_section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home_7th_section .header{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.home_7th_logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}
+
+.home_7th_logos img:hover{
+  filter: hue-rotate(180deg);
+}
+
+.home_7th_bottom{
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+}
+
+.home_7th_leftside{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: left;
+}
+
+.home_7th_leftside h2{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+.home_7th_leftside_client_text img{
+  margin-bottom: 24px;
+}
+
+.home_7th_leftside_client_text p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  color: #424551;
+  margin-bottom: 24px;
+}
+
+.home_7th_leftside_client_text h3{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1E212C;
+  margin-bottom: 4px;
+}
+
+.home_7th_leftside_client_text span{
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #787A80;
+margin-bottom: 121px;
+}
+
+.home_7th_leftside_image{
+  margin-bottom: -50px;
+}
+
+.home_8th{
+}
+
+.home_8th_title{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color: #1E212C;
+  margin-top: 170px;
+}
+
+.home_8th_circles_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 60px;
+  margin-bottom: 180px;
+}
+
+.home_8th_circles_div p{
+  margin-top: 20px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #1E212C;
+}
+
+.home_8th_circle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_8th .home_8th_bottom_header{
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #1E212C;
+  margin-bottom: 60px;
+}
+
+.home_8th_news_div{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.home_8th_news_leftside{
+  box-shadow: 0px 4px 4px -4px #1E212C08 ,0px 12px 10px -6px #9A9CA50A ,0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514;
+  height: 540px;
+}
+
+.home_8th_news_rightside{
+  max-height: 540px;
+}
+
+.home_8th_news_rightside>div{
+  box-shadow: 0px 4px 4px -4px #1E212C08 ,0px 12px 10px -6px #9A9CA50A ,0px 30px 24px -10px #9A9CA50D, 0px 80px 80px -20px #9A9CA514;
+}
+
+.home_8th_news_rightside_div{
+  margin-bottom: 30px;
+}
+
+.home_8th_news_commentdiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.home_8th_news_textdiv{
+  margin: 24px;
+  max-width: 657px;
+}
+
+.home_8th_news_textdiv h3{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  color: gray/900;
+  margin-bottom: 12px;
+}
+
+.home_8th_news_textdiv span{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #424551;
+}
+
+.home_8th_news_commentdiv{
+  margin-bottom: 16px;
+}
+
+.home_8th_news_commentdiv div{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #787A80;
+}
+
+.home_8th_news_comment_middlediv{
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 12px;
+  margin-left: 12px;
+  padding-right: 12px;
+  margin-right: 12px;
+  border-image: linear-gradient(white 0% 20%, #787A80 20% 80%, white 80% 100%) 1;
+}
+
+.home_8th_news_rightside h3{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #1E212C;
+  margin-bottom: 8px;
+}
+
+.home_8th_news_textdiv_rightside h3{
+  margin-top: 16px;
+}
+
+.home_8th_news_textdiv_rightside{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.home_8th_news_textdiv_rightside .home_8th_news_commentdiv{
+  padding-bottom: 24px;
+}
+
+.home_8th_news_text_chatdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.home_8th_news_rightside_div:hover h3{
+  color: #FF5A30;
+}
+
+.home_8th_news_leftside:hover h3{
+  color: #FF5A30;
+}
+
+.home_8th .home_6th_lowbuttons{
+  margin-bottom: 120px;
+}
+
+.footer{
+  background-image: url('/CreatexConstruction/img/footer.jpg');
+  width: 1920px;
+  height: 826px;
+  position: relative;
+}
+
+.footer_div{
+  position: relative;
+}
+
+.footer_window{
+  width: 495px;
+  height: 666px;
+  border-radius: 4px;
+  border: 1px solid #E5E8ED;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px -4px #1E212C0D, 0px 12px 10px -6px #1E212C14, 0px 26px 24px -10px #1E212C1A, 0px 60px 80px -20px #1E212C29;
+  position: absolute;
+  top: 80px;
+  left: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_window h3{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #1E212C;
+  margin-top: 48px;
+}
+
+input:focus{
+  outline: 0;
+  border: 1px solid #FF5A30;
+  outline-offset: 0;
+}
+
+.footer_form{
+  margin: 24px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_form p{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #424551;
+}
+
+.footer_form div{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer_form_input{
+  width: 399px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid #D7DADD;
+  background-color: #F4F5F6;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #9A9CA5;
+  padding-left: 16px;
+}
+
+.input_message{
+  width: 399px;
+  height: 66px;
+}
+
+.footer_form_bottom_div{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 24px;
+}
+
+.footer_form_bottom_div span{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424551;
+}
+
+.footer_form_bottom_div input{
+  width: 16px;
+  height: 16px;
+  accent-color: #FF5A30;
+}
+
+.footer_form_btn{
+  width: 200px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #FF5A30;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 48px;
+}
+
+.footer_navigation{
+  background-color: #1E212C;
+  width: 1920px;
+  height: 566px;
+}
+
+.footer_nav_top_left{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_nav_top_left p{
+  width: 520px;
+  height: 84px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #787A80;
+  line-height: 24px;
+}
+
+.footer_nav_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+  /* gap: 242px; */
+}
+
+.footer_logos{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.footer_logos_left{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.footer_nav_top_right{
+  display: flex;
+  flex-direction: column;
+  width: 495px;
+}
+
+.footer_nav_top_right h3{
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.footer_nav_top_right p{
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #787A80;
+}
+
+.footer_nav_top_right_btnbar{
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-bottom: 16px;
+}
+
+.footer_nav_top_right_btnbar button{
+  width: 131px;
+  height: 48px;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid #FF5A30;
+  background-color: #FF5A30;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer_nav_top_right_btnbar input{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #787A80;
+  height: 44px;
+  border-radius: 4px 0px 0px 4px;
+  padding-left: 16px;
+  background-color:#787a8099;
+  border-left: 1px solid #787A80;
+  border-top: 1px solid #787A80;
+  border-bottom: 1px solid #787A80;
+  border-right: none;
+}
+
+.footer_nav_top_right input:focus{
+  outline: 0;
+  border: 1px solid #FF5A30;
+  outline-offset: 0;
+}
+
+.footer_nav_bottom{
+  margin-top: 49px;
+}
+
+.footer_nav_divs_refs{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_nav_div{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: 125px;
+}
+
+.footer_nav_bottom_div_header{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer_nav_div a{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #787A80;
+}
+
+.footer_nav_div_left{
+  width: 400px;
+}
+
+.footer_nav_div span{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+
+.footer_nav_div span>p{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  color: #787A80;
+}
+
+.footer_nav_div .text_with_text{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.footer_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.footer_bottom_left{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.footer_bottom_left p{
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.footer_bottom_right{
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.footer_bottom_right p{
+  text-transform: uppercase;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-right: 16px;
+}
+
+.footer_bottom_right a{
+  width: 40px;
+  height: 40px;
+  background-color: #FF5A30;
+  border-radius: 4px;
+}
+
+.footer_bottom_refwithlogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
