@@ -105,7 +105,7 @@ body {
 }
 
 .home_main_top{
-  background-image: url(/CreatexConstruction/img/bg_image_home.jpg);
+  background-image: url('../img/bg_image_home.jpg');
   width: 1920px;
   height: 988px;
 }
@@ -166,6 +166,10 @@ body {
   margin-left: 0;
   z-index: 100;
   transition-delay: 0.3s;
+}
+
+.home_main_top{
+  position: relative;
 }
 
 .home_main_top .inner_part {
@@ -276,7 +280,7 @@ body {
 }
 
 .img{
-  background-image: url(/CreatexConstruction/img/videoimage.png);
+  background-image: url('../img/videoimage.png');
   width: 1230px;
   height: 500px;
   position: relative;
@@ -501,28 +505,28 @@ body {
 }
 
 .first_img{
-  background: url(/CreatexConstruction/img/ourservicelogo1.svg);
+  background: url('../img/ourservicelogo1.svg');
   width: 52px;
   height: 52px;
   background-repeat: no-repeat;
 }
 
 .second_img{
-  background: url(/CreatexConstruction/img/ourservicelogo2.svg);
+  background: url('../img/ourservicelogo2.svg');
   width: 52px;
   height: 52px;
   background-repeat: no-repeat;
 }
 
 .third_img{
-  background: url(/CreatexConstruction/img/ourservicelogo3.png);
+  background: url('../img/ourservicelogo3.png');
   width: 52px;
   height: 52px;
   background-repeat: no-repeat;
 }
 
 .forth_img{
-  background: url(/CreatexConstruction/img/ourservicelogo3.png);
+  background: url('../img/ourservicelogo4.svg');
   width: 52px;
   height: 52px;
   background-repeat: no-repeat;
@@ -537,11 +541,11 @@ body {
 }
 
 .home_5th_cardsdiv .third_card:hover{
-  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
+  background-image: url('../img/ourserviceimage3hover.jpg');
 }
 
 .third_card:hover a{
-  background: url(/CreatexConstruction/img/ourservicelogo3hover.png);
+  background: url('../img/ourservicelogo3hover.png');
 }
 
 .section_5th_btn_div{
@@ -975,7 +979,7 @@ margin-bottom: 121px;
 }
 
 .footer{
-  background-image: url('/CreatexConstruction/img/footer.jpg');
+  background-image: url('../img/footer.jpg');
   width: 1920px;
   height: 826px;
   position: relative;
@@ -1325,5 +1329,5 @@ html{
 }
 
 .companyBgrColor{
-  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
+  background-image: url('../img/ourserviceimage3hover.jpg');
 }

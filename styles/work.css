@@ -9,7 +9,7 @@
 
 .header-backgroup{
   position: absolute;
-  background-image: url('/CreatexConstruction/img/work/work_header_background.png');
+  background-image: url('../img/work/work_header_background.png');
   height: 600px;
   width: 910px;
   right: 0px;
@@ -106,23 +106,23 @@
 }
 
 .img1{
-  background-image: url('/CreatexConstruction/img/work/ic-house.png'); 
+  background-image: url('../img/work/ic-house.png'); 
 }
 
 .img2{
-  background-image: url('/CreatexConstruction/img/work/ic-construction.png');
+  background-image: url('../img/work/ic-construction.png');
 }
 
 .img3{
-  background-image: url('/CreatexConstruction/img/work/ic-plan.png');
+  background-image: url('../img/work/ic-plan.png');
 }
 
 .img4{
-  background-image: url('/CreatexConstruction/img/work/ic-pantone.png');
+  background-image: url('../img/work/ic-pantone.png');
 }
 
 .img5{
-  background-image: url('/CreatexConstruction/img/work/ic-painting.png');
+  background-image: url('../img/work/ic-painting.png');
 }
 
 .header_cards_text{
@@ -141,7 +141,7 @@
   background-color: #FF5A30;
 }
 #card1:checked ~ .work_header_label1 .img1{
-  background-image: url('/CreatexConstruction/img/work/ic-house-white.svg');
+  background-image: url('../img/work/ic-house-white.svg');
 }
 #card1:checked ~ .work_header_label1 .header_cards_text{
   color: white;
@@ -151,7 +151,7 @@
   background-color: #FF5A30;
 }
 #card2:checked ~ .work_header_label2 .img2{
-  background-image: url('/CreatexConstruction/img/work/ic-house-white.svg');
+  background-image: url('../img/work/ic-house-white.svg');
 }
 #card2:checked ~ .work_header_label2 .header_cards_text{
   color: white;
@@ -161,7 +161,7 @@
   background-color: #FF5A30;
 }
 #card3:checked ~ .work_header_label3 .img3{
-  background-image: url('/CreatexConstruction/img/work/ic-house-white.svg');
+  background-image: url('../img/work/ic-house-white.svg');
 }
 #card3:checked ~ .work_header_label3 .header_cards_text{
   color: white;
@@ -171,7 +171,7 @@
   background-color: #FF5A30;
 }
 #card4:checked ~ .work_header_label4 .img4{
-  background-image: url('/CreatexConstruction/img/work/ic-house-white.svg');
+  background-image: url('../img/work/ic-house-white.svg');
 }
 #card4:checked ~ .work_header_label4 .header_cards_text{
   color: white;
@@ -181,7 +181,7 @@
   background-color: #FF5A30;
 }
 #card5:checked ~ .work_header_label5 .img5{
-  background-image: url('/CreatexConstruction/img/work/ic-house-white.svg');
+  background-image: url('../img/work/ic-house-white.svg');
 }
 #card5:checked ~ .work_header_label5 .header_cards_text{
   color: white;
@@ -482,7 +482,7 @@
 }
 
 #work_photo1:checked ~ .modern_cottage_main_photo{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg1.jpg');
+  background-image: url('../img/work/moderncottageimg1.jpg');
 }
 #work_photo1:checked ~ .work_header_sliders .work_header_prev_slide .work_header_numb4{
   display: block;
@@ -497,7 +497,7 @@
 
 
 #work_photo2:checked ~ .modern_cottage_main_photo{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg2.svg');
+  background-image: url('../img/work/moderncottageimg2.svg');
 }
 #work_photo2:checked ~ .work_header_sliders .work_header_prev_slide .work_header_numb1{
   display: block;
@@ -512,7 +512,7 @@
 
 
 #work_photo3:checked ~ .modern_cottage_main_photo{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg3.svg');
+  background-image: url('../img/work/moderncottageimg3.svg');
 }
 #work_photo3:checked ~ .work_header_sliders .work_header_prev_slide .work_header_numb2{
   display: block;
@@ -527,7 +527,7 @@
 
 
 #work_photo4:checked ~ .modern_cottage_main_photo{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg4.svg');
+  background-image: url('../img/work/moderncottageimg4.svg');
 }
 #work_photo4:checked ~ .work_header_sliders .work_header_prev_slide .work_header_numb3{
   display: block;
@@ -696,6 +696,6 @@
 } 
 
 .section3_text_container p::before{
-  content: url('/CreatexConstruction/img/work/check.svg');
+  content: url('../img/work/check.svg');
   padding-right: 16px;
 }

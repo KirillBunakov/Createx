@@ -4,7 +4,7 @@
 
 .header-backgroup2{
   position: absolute;
-  background-image: url('/CreatexConstruction/img/aboutus/backgroundimg.png');
+  background-image: url('../img/aboutus/backgroundimg.png');
   background-repeat: no-repeat;
   height: 600px;
   width: 910px;
@@ -106,7 +106,7 @@
 
 
 .text_div::before{
-  content: url('/CreatexConstruction/img/aboutus/braces.svg');
+  content: url('../img/aboutus/braces.svg');
   margin-right: 30px;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .history_points label::before{
-  content: url('/CreatexConstruction/img/aboutus/ellipse.png');
+  content: url('../img/aboutus/ellipse.png');
   padding-right: 32px;
   margin-left: -29px;
   height: 42px;
@@ -218,7 +218,7 @@ color: #9A9CA5;
 #num7:checked ~ .history_line_div .history_points .num7::before,
 #num8:checked ~ .history_line_div .history_points .num8::before,
 #num9:checked ~ .history_line_div .history_points .num9::before{
-  content: url('/CreatexConstruction/img/aboutus/ellipseorange.png');
+  content: url('../img/aboutus/ellipseorange.png');
 }
 
 .history_section input{
@@ -326,39 +326,39 @@ color: #9A9CA5;
 }
 
 #num1:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/aboutus/history_img1.jpg');
+  background-image: url('../img/aboutus/history_img1.jpg');
 }
 
 #num2:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg1.jpg');
+  background-image: url('../img/work/moderncottageimg1.jpg');
 }
 
 #num3:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/work/moderncottageimg2.svg');
+  background-image: url('../img/work/moderncottageimg2.svg');
 }
 
 #num4:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/work/section3_image.jpg');
+  background-image: url('../img/work/section3_image.jpg');
 }
 
 #num5:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
+  background-image: url('../img/ourserviceimage3hover.jpg');
 }
 
 #num6:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/services/section3card1.jpg');
+  background-image: url('../img/services/section3card1.jpg');
 }
 
 #num7:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/services/section3card2.jpg');
+  background-image: url('../img/services/section3card2.jpg');
 }
 
 #num8:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/services/section3card3.jpg');
+  background-image: url('../img/services/section3card3.jpg');
 }
 
 #num9:checked ~ .history_line_content_div .history_line_content_image{
-  background-image: url('/CreatexConstruction/img/services/services-interiordesign.jpg');
+  background-image: url('../img/services/services-interiordesign.jpg');
 }
 
 .services_interior_design_bottom_logos{
@@ -515,7 +515,7 @@ color: #9A9CA5;
 }
 
 .map{
-  background-image: url('/CreatexConstruction/img/aboutus/map.png');
+  background-image: url('../img/aboutus/map.png');
   width: 1230px;
   height: 563px;
   background-repeat: no-repeat;
