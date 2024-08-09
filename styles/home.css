@@ -864,6 +864,7 @@ margin-bottom: 121px;
   flex-direction: row;
   gap: 30px;
   margin-bottom: 80px;
+  box-sizing: border-box;
 }
 
 .home_8th_news_leftside{
@@ -1315,7 +1316,14 @@ input:focus{
   align-items: center;
 }
 
-
 html{
   scroll-behavior: smooth;
+}
+
+.companyColor{
+  color: #FF5A30;
+}
+
+.companyBgrColor{
+  background-image: url('/CreatexConstruction/img/ourserviceimage3hover.jpg');
 }
